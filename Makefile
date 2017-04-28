@@ -6,7 +6,7 @@
 #    By: smifsud <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/09/21 09:27:22 by smifsud           #+#    #+#              #
-#    Updated: 2017/03/19 17:10:24 by smifsud          ###   ########.fr        #
+#    Updated: 2017/04/28 14:02:55 by smifsud          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ FILENAMES += ft_lstnew.c ft_lstdelone.c ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_
 FILENAMES += ft_realc.c ft_modstr.c ft_realloc_str.c ft_rightjustify.c ft_realc_str.c
 FILENAMES += ft_tohex.c ft_hexchar.c charfillfromleft.c charfillfromright.c ft_char_to_str.c debug_printevery.c
 FILENAMES += ft_wchardup.c ft_wcharlen.c ft_itoa_base.c ft_itoa_base_u.c ft_itoa_base_up.c ft_itoa_base_up_u.c ft_wcstombs.c
-FILENAMES += ft_memcat.c ft_utf8.c ft_atoi_u.c
+FILENAMES += ft_memcat.c ft_utf8.c ft_atoi_u.c ft_dstrjoin.c
 
 DIR2 = src2
 FILENAMES2 = c_flag.c clearholder.c d_flag.c flags_modstr.c jd_flag.c jo_flag.c ju_flag.c

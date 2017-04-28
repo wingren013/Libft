@@ -6,13 +6,13 @@
 /*   By: smifsud <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/08/11 23:03:04 by smifsud           #+#    #+#             */
-/*   Updated: 2016/10/19 16:44:35 by smifsud          ###   ########.fr       */
+/*   Updated: 2017/04/28 14:02:38 by smifsud          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(const char *str)
+long	ft_atoi(const char *str)
 {
 	unsigned long long		x;
 	int						i;

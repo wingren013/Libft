@@ -6,7 +6,7 @@
 /*   By: smifsud <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/09/21 09:38:16 by smifsud           #+#    #+#             */
-/*   Updated: 2017/03/14 19:16:50 by smifsud          ###   ########.fr       */
+/*   Updated: 2017/04/28 14:01:42 by smifsud          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -148,6 +148,7 @@ char				*ft_charfillfromleft(char c,
 char				*ft_charfillfromright(char c,
 		char *str, size_t len, size_t textlen);
 char				*ft_char_to_str(char c);
+char				*ft_dstrjoin(char *s1, char *s2);
 
 /*
 ** IO
