@@ -206,7 +206,7 @@ char				*encode_four(wchar_t wc, char *ret, size_t *size);
 char				ft_hexchar(char c);
 char				ft_hexup(char c);
 char				*ft_tohex(size_t num);
-int					ft_atoi(const char *str);
+long				ft_atoi(const char *str);
 long long			ft_atoi_u(const char *str);
 char				*ft_itoa(int n);
 char				*ft_itoa_base(long long num, int base);
